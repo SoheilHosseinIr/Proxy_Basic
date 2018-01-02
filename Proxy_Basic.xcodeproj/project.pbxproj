@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7E9C552B1FF5BDCC00C60491 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9C552A1FF5BDCC00C60491 /* main.swift */; };
+		7EC3166F1FF79A7300FFC8BC /* HEVSuitMedicalAid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3166E1FF79A7300FFC8BC /* HEVSuitMedicalAid.swift */; };
+		7EC316711FF79AC300FFC8BC /* HEVSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC316701FF79AC300FFC8BC /* HEVSuit.swift */; };
+		7EC316731FF79B0000FFC8BC /* HEVSuitHumanInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC316721FF79B0000FFC8BC /* HEVSuitHumanInterface.swift */; };
+		7EC316771FF79C6700FFC8BC /* DoorOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC316761FF79C6700FFC8BC /* DoorOperator.swift */; };
+		7EC316791FF79C8E00FFC8BC /* HAL9000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC316781FF79C8E00FFC8BC /* HAL9000.swift */; };
+		7EC3167B1FF79CE600FFC8BC /* CurrentComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3167A1FF79CE600FFC8BC /* CurrentComputer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,13 @@
 /* Begin PBXFileReference section */
 		7E9C55271FF5BDCC00C60491 /* Proxy_Basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Proxy_Basic; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9C552A1FF5BDCC00C60491 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7E9C55311FF5BFC300C60491 /* proxy_main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = proxy_main.jpg; sourceTree = "<group>"; };
+		7EC3166E1FF79A7300FFC8BC /* HEVSuitMedicalAid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEVSuitMedicalAid.swift; sourceTree = "<group>"; };
+		7EC316701FF79AC300FFC8BC /* HEVSuit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEVSuit.swift; sourceTree = "<group>"; };
+		7EC316721FF79B0000FFC8BC /* HEVSuitHumanInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEVSuitHumanInterface.swift; sourceTree = "<group>"; };
+		7EC316761FF79C6700FFC8BC /* DoorOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorOperator.swift; sourceTree = "<group>"; };
+		7EC316781FF79C8E00FFC8BC /* HAL9000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAL9000.swift; sourceTree = "<group>"; };
+		7EC3167A1FF79CE600FFC8BC /* CurrentComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentComputer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +70,32 @@
 		7E9C55291FF5BDCC00C60491 /* Proxy_Basic */ = {
 			isa = PBXGroup;
 			children = (
+				7EC316751FF79C3E00FFC8BC /* Protection Proxy */,
+				7EC316741FF79BB200FFC8BC /* Virtual Proxy */,
+				7E9C55311FF5BFC300C60491 /* proxy_main.jpg */,
 				7E9C552A1FF5BDCC00C60491 /* main.swift */,
 			);
 			path = Proxy_Basic;
+			sourceTree = "<group>";
+		};
+		7EC316741FF79BB200FFC8BC /* Virtual Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				7EC3166E1FF79A7300FFC8BC /* HEVSuitMedicalAid.swift */,
+				7EC316701FF79AC300FFC8BC /* HEVSuit.swift */,
+				7EC316721FF79B0000FFC8BC /* HEVSuitHumanInterface.swift */,
+			);
+			path = "Virtual Proxy";
+			sourceTree = "<group>";
+		};
+		7EC316751FF79C3E00FFC8BC /* Protection Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				7EC316761FF79C6700FFC8BC /* DoorOperator.swift */,
+				7EC316781FF79C8E00FFC8BC /* HAL9000.swift */,
+				7EC3167A1FF79CE600FFC8BC /* CurrentComputer.swift */,
+			);
+			path = "Protection Proxy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC316791FF79C8E00FFC8BC /* HAL9000.swift in Sources */,
+				7EC3167B1FF79CE600FFC8BC /* CurrentComputer.swift in Sources */,
+				7EC316731FF79B0000FFC8BC /* HEVSuitHumanInterface.swift in Sources */,
+				7EC316771FF79C6700FFC8BC /* DoorOperator.swift in Sources */,
 				7E9C552B1FF5BDCC00C60491 /* main.swift in Sources */,
+				7EC3166F1FF79A7300FFC8BC /* HEVSuitMedicalAid.swift in Sources */,
+				7EC316711FF79AC300FFC8BC /* HEVSuit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
